@@ -1,0 +1,19 @@
+/*simple addition of two user given numbers in cpp*/
+
+
+
+
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    cout<<"enter number 1: " ;
+    int x {};
+    cin>>x;
+    cout<< "enter number 2: " ;
+    int y {};
+    cin>>y;
+    int sum = x + y;
+    cout<< " sum of "<<x << " and "<<y<<" is: "<<sum<<endl;
+}
