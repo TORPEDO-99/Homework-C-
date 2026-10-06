@@ -1,0 +1,35 @@
+/*Create a class called Book with the following attributes:
+
+title (string)
+author (string)
+year (int)
+Then create two objects of the class and print their attribute values.*/
+
+#include<iostream>
+//#include<conio.h>
+using namespace std;
+
+class Book {
+    public:
+    string title;
+    string author;
+    int year;
+};
+int main(){
+Book obj1;
+Book obj2;
+
+obj1.title="Stay still";
+obj1.author="Marko";
+obj1.year=2009;
+
+obj2.title="Move on";
+obj2.author="Marina";
+obj2.year=2010;
+
+ 
+cout<<obj1.title<< "written by"<<obj1.author<<"released"<<obj1.year<<endl;
+cout<<obj2.title<< "written by"<<obj2.author<<"released"<<obj2.year<<endl;
+
+
+}
